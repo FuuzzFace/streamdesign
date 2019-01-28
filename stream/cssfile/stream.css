@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    /* font-family: 'Oswald', sans-serif; */
+}
+
+.mainhead{
+    height: 600px;
+    background-image: url(../imagefile/background.png);
+    opacity: .8;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.flexbo{ 
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}   
+.logo{
+        background-color: black;
+        height: 150px;
+        width: 125px;
+        line-height: 150px;
+        position: relative;
+        box-shadow: 2px 2px 2px black;
+        margin-right: 35px;
+        
+}
+.logo h1{
+        color: white;
+        font-size:25px;
+        font-weight: bold;
+        text-align: center;
+}
+.logo span{
+    position: absolute;
+    top: 20px;
+    font-size: 9px;
+    font-weight: bold;
+    color: white;
+    padding-left: 10px;
+    width: 120px;
+    letter-spacing: 1px;
+}
+nav ul{ list-style-type: none;
+    padding-top: 30px;
+}
+nav ul li{ display: inline-block;}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 1px black;
+    font-size: 18px;
+}
+nav ul li a:hover{ background-color: black;
+    border-radius: 5px;
+    transition: all 1s ease-in;
+ }
+
+ .welcome{
+     height: 500px;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .welcome h1{
+     width: 60%;
+     text-align: center;
+     color: white;
+     font-size: 35px;
+     font-weight: bold;
+     text-shadow: 1px 1px 1px black;
+ }
+
+ .btn{
+     margin-top: 5%;
+ }
+.btn button{
+     padding: 10px 20px;
+     background-color: transparent;
+     border: 1px solid white;
+     margin: 0 5px;
+     width: 120px;
+     box-shadow: 1px 1px 1px black;
+     color: white;
+     font-size: 14px;
+     font-weight: 400;
+     letter-spacing: 1px;
+     border-radius:5px; 
+ }
+button a { 
+    text-decoration: none;
+ }
+
+ .btn button:hover{
+     background-color:deepskyblue;
+     color: white;
+     border: 1px solid deepskyblue;
+     text-shadow: 1px 1px 1px black;
+     transition: all .5s ease-in;
+ }
+
+ .sect1{ display: flex;
+    justify-content: space-between;
+    width: 75%;
+    padding-bottom: 2%;
+    margin: 5% auto .5%;
+    border-bottom: 1px solid lightgray; 
+}
+.card1{ width: 23%;
+        height: 220px;
+        color: darkgray;
+}
+
+.card1 i {
+    font-size: 28px;
+    margin-bottom: 5%;
+}
+.card1 h3{
+    text-transform: uppercase;
+    width: 70%;
+}
+.card1 p{
+    font-size: 14px;
+    margin-top: 10%;
+    text-align: justify;
+}
+.card1 a{
+    color: dodgerblue;
+    text-decoration: none;
+    font-size: 13px;
+}
+.card1 a:hover{
+    color: white;
+    background-color: dodgerblue;
+    padding: 8px 16px;
+    border-radius: 2px;
+    transition: all .5s ease-in;
+}
+
+.card1:nth-of-type(4) h3{ color: darkturquoise;
+
+}
+.card1 address{
+    font-style: normal;
+    margin-top: 15%;
+    font-size: 14px;
+}
+.card1 address span{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 2px;
+}
+.sect2{ display: flex;
+    justify-content: space-between;
+    width: 75%;
+    padding-bottom: 2%;
+    margin: 2.5% auto .5%;
+}
+.card2{ 
+    width: 23%;
+}
+.card2 p{
+    text-align: right;
+    width: 70%;
+    margin-left: 29%;
+    font-weight: 800;
+    font-size: 23px;
+    color: dodgerblue;
+    text-shadow: 1px 1px 1px grey;
+}
+.card2 p:nth-of-type(2){
+    font-size: 16px;
+    width: 65%;
+    margin-left: 35%;
+    margin-top: 5%;
+    font-family: 'Oswald', sans-serif;
+    color: dimgray;
+}
+.only { font-size: 20px;}   
+
+.card3{
+    width: 25%;
+    background-image: url(../imagefile/person.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    box-shadow: 1px 2px 10px dimgray;
+}
+.card4 {
+    width: 20%;
+}
+
+.card4 p{ text-align: left;
+    width: 75%;
+    color: grey;
+    font-size: 14px;
+}
+.card4 p:nth-of-type(2){
+    margin-top: 4%;
+    color: black;
+}
+.card4 a{
+    color: dodgerblue;
+    text-decoration: none;
+    font-size: 14px;
+}
+.card4 a:hover{
+    color: white;
+    background-color: dodgerblue;
+    padding: 8px 16px;
+    border-radius: 2px;
+    transition: all .5s ease-in;
+}
+
+.card5 {
+    width: 25%;
+}
+.card5 h4{
+    font-size: 18px;
+     font-family: 'Oswald', sans-serif;
+     letter-spacing: 1px;
+}
+.card5 ul{ margin-top: 7%; 
+    color: dodgerblue;
+}
+
+.foot {
+    display: flex;
+    height: 80px;
+    background-color: #3e3a3c;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    
+}
