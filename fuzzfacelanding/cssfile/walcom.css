@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+
+}
+
+.all{   display: flex;
+    flex-direction: row;
+}
+
+.navi{
+    width: 20%;
+    background-color: #242324;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.logo-area {
+    width: 100%;
+    height: 25%;
+    background-color: #141313;
+}
+.logo{
+    color: white;
+    width: 50%;
+    font-size: 50px;
+    text-align: center;
+    margin: 25px auto;
+}
+.logo p {
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    font-size: 25px;
+    margin-top: 5%; 
+}
+.btns{
+    height: 40%;
+}
+.btns ul{ 
+    list-style-type: none;
+    text-align: left;
+    height: 100%;
+}
+.btns ul li{ 
+    padding: 15px 30px;
+    border-bottom: 1px solid #141414;
+}
+.btns ul li:hover{ 
+    background-color: #141212;
+}
+.btns ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.active{
+    background-color: #141519;
+    border-bottom:black; 
+    color: white;
+}
+.btns ul li i{
+    margin-right: 10px;
+}
+
+.icons {
+    height: 35%;
+}
+.icon { text-align: center;
+color: white;
+font-size: 30px;
+margin-top: 45%; 
+}
+.icon i {
+    margin: 10px;
+    text-shadow: 1px 1px 1px #141313;
+    color: white;
+}
+.icons p{ font-size: 18px;
+    color: white;
+    text-align: center;
+    background-color: #141313;
+    margin-top: 30px;
+    padding: 10px 0;
+}
+
+
+
+
+
+
+
+
+.main-section{
+    width: 80%;
+    height: 700px;
+    background-color: #1fb3ee;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.sect1 {
+    background-color:#d7d7da;
+    height: 80px;
+    width: 100%;
+}
+.sect2{
+    margin-left: 65%;
+}
+.sect2 ul{
+    list-style-type: none;
+    background-color: #1d8ebb;
+    margin: 0 auto;
+}
+.sect2 li {
+    display: inline-block;
+    padding: 10px 0;
+}
+.sect2 li :hover{
+    background-color: #197193;
+}
+.sect2 li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 20px;
+    text-align: right;
+}
+.sect2 li a i{ margin-right: 10px;
+}
+
+.sect3 {    width: 70%;
+    height: 23%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-top: 5%;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+.sect4{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sect41{
+    width: 50%;
+    height: 100%;
+    background-color: #141212;
+}
+.sect41 p {
+    width: 30%;
+    color: white;
+    height: 70%;
+    font-size: 23px;
+    margin: 10px 50px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.sect41 p:nth-of-type(2) a{
+    color: white;
+    font-size: 12px;
+    letter-spacing: -1px;
+    text-decoration: none;
+}
+.sect41 p:nth-of-type(2) i {
+    margin-right: 10px;
+}
+.sect42{
+    width: 20%;
+    height: 100%;
+    color: #141212;
+    background-color: #d7d7da;
+}
+.sect42 p {
+    font-size: 23px;
+    width: 70%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.sect42 p:nth-of-type(2) {
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.sect42 p:nth-of-type(2) a{
+    color: #141212;
+    font-size: 12px;
+    letter-spacing: -1px;
+    text-decoration: none;
+}
+.sect42 p:nth-of-type(2) i {
+    margin-right: 10px;
+}
+
+.sect5{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sect51{
+    width: 20%;
+    background-color: antiquewhite;
+}
+.sect51 p{
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.sect51 p:nth-of-type(2){
+    margin-top: 50px;
+}
+.sect51 p a{
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+}
+.sect51 p i {
+    margin-right: 10px;
+}
+
+.sect52{
+    width: 50%;
+    background-color: bisque;
+}
+.sect52  p {
+    width: 32%;
+    margin: 20px 0 20px 20px;
+    font-size: 23px; 
+    letter-spacing: 1px;
+}
+.sect52 p:nth-of-type(2){
+    font-size: 12px;
+}
+.sect52 p:nth-of-type(2) a{
+    color: black;
+    text-decoration: none;
+}
+.sect52 p:nth-of-type(2) i {
+    margin-right: 5px;
+}
+
+.foot {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 80px;
+    padding-top: 20px;
+    background-color: #d7d7da;
+}
