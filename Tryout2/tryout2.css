@@ -1,0 +1,100 @@
+.brand{font-size:56px;
+margin:auto;
+color:lightgreen;
+margin-top: 20px;
+margin-right: 5px;
+}
+.bran {margin-left: 0;}
+h1{font-family:'Oswald', sans-serif;
+    letter-spacing: 1px;
+   margin-bottom:0; 
+   padding-bottom:0;
+}
+
+h1+span{font-size: 12px;
+    font-family: 'Oswald', sans-serif;
+    margin-top:0;}
+
+nav { margin-top:30px;
+    
+}
+nav>ul>li{border-top:2px solid gray;
+         margin: 0 10px;
+}
+nav>ul>li>a { color: lightgray;}
+li:hover {
+    color: black;
+    border-top: 2px solid green;
+}
+.jumboimage { background-image: url("image1.jpg");
+              min-height:500px; margin:0 0 0 20px;
+              background-size: cover;
+              background-position: center;
+              margin-top: 20px;
+              border: 2px solid grey;
+              border-radius: 4px;
+              opacity: .8;
+              position: relative;
+}
+
+.sectionboxes { margin: 0 auto;
+                text-align: center;
+                font-family: 'Oswald', sans-serif;
+}
+.sectionboxes h2 { font-size: 20px;
+    background-color: rgb(152, 212, 40);
+    padding: 45px 45px;
+    margin-bottom: 0;
+    box-shadow: 1px 1px black;
+}
+.sectionboxes:nth-of-type(2) h2 { background-color:darkgreen;}
+.sectionboxes:nth-of-type(3) h2 { background-color:darkblue;}
+.sectionboxes:nth-of-type(4) h2 { background-color:skyblue;}
+.sectionboxes i { margin-right: 10px;
+    font-size: 28px;
+}
+.sectionboxes a { color: lightcyan;
+}
+.pullthembelow { position: absolute;
+     bottom: 0;
+}
+.pieceofshit{ position: absolute;
+    bottom: 220px;
+    left: 750px; 
+    color: lightgoldenrodyellow;
+    font-size: 38px;
+    font-family:'Dancing Script', cursive;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 1px 1px grey;
+}
+.article {margin:25px 0 30px 13px ;
+}
+
+.article h3{font-family: 'Oswald', sans-serif;
+color:lightslategrey;}
+
+.article p{font-family: 'Roboto Condensed', sans-serif;
+text-align:justify;
+letter-spacing:.5px;
+margin:30px 0;}
+
+.article button{background-color:grey;
+border-radius:1px;
+font-family: 'Roboto Condensed', sans-serif;
+color:white;
+font-weight: 800;
+width:30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
